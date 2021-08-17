@@ -1,0 +1,1304 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    color: #333;
+}
+header {
+    max-width: 120.5rem;
+    margin: 0 auto;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.icons i {
+    margin-right: 2.5rem;
+}
+.region {
+    text-align: center;
+}
+.region ul li {
+    display: inline-block;
+}
+.region a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    padding: 0.7rem 0.8rem 0.6rem;
+}
+.account-btn button {
+    background-color: rgb(86, 123, 149);
+    border: 0.1rem solid rgb(50, 104, 145);
+    border-radius: 0.3rem;
+    color: #fff;
+    padding: 1.1rem 1.2rem 0.8rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.1rem;
+}
+.header-middle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.today {
+    font-size: 1.2rem;
+    color: #121212;
+    margin-top: 1.5rem;
+}
+.today a {
+    text-decoration: none;
+    color: #121212;
+}
+.logo-title {
+    width: 45rem;
+    margin-left: -17rem;
+}
+.logo-title img {
+    width: 100%;
+}
+.title-header {
+    text-align: center;
+}
+.title-header .fa-bars, .title-header .fa-user {
+    display: none;
+}
+.temperature {
+    margin-top: 1.5rem;
+}
+.line-title {
+    width: 120.5rem;
+    height: 0.1rem;
+    background-color: rgb(235, 232, 232);
+}
+.header-bottom {
+    padding: 1rem 6rem;
+}
+.header-bottom ul li {
+    display: inline-block;
+    margin-right: 1.4rem;
+}
+.header-bottom a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3rem;
+}
+.header-bottom div {
+    display: none;
+}
+hr {
+    background-color: black;    
+}
+.grid-1 img {
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-right: 1.5rem;
+    margin-top: 0.4rem;
+}
+.grid-1 {
+    font-size: 1.4rem;
+    padding: 0.8rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    border-bottom: 0.5rem double #000;
+}
+.box-1, .box-2, .box-3 {
+    display: flex;
+}
+.box-1, .box-2, .box-3 div {
+    align-items: center;
+}
+
+main {
+    width: 120.5rem;
+    margin: 0 auto;
+}
+.big-title {
+    font-size: 3.2rem;
+    color: #121212;
+    text-align: center;
+    margin: 2rem 0;
+}
+.row-1 {
+    display: flex;
+    border-bottom: 1px solid  rgb(216, 213, 213);
+    padding-bottom: 1.5rem;
+}
+.article-1 {
+    width: 31rem;
+    height: 39rem;
+}
+.article-1 span {
+    color: #d0021b;
+    font-size: 1.1rem;
+    font-weight: 550;
+    letter-spacing: 0.2rem;
+}
+.article-1 h4 {
+    font-size: 2.7rem;
+    color: #121212;
+}
+.article-1 ul li {
+    color: #555555;
+}
+.img-joe {
+    width: 52.8rem;     
+    height: 35.1rem;
+}
+.img-Joe img {
+    width: 52.8rem;
+    height: 35.1rem;
+    padding: 0 1.5rem;
+    border-right: 0.1rem solid rgb(216, 213, 213);
+}
+.articles-3 {
+    margin-left: 1.5rem;
+}
+.articles-3 div {
+    padding: 1.5rem 0;
+    border-bottom: 0.1rem solid rgb(216, 213, 213);
+}
+.articles-3 h3 {
+    font-size: 1.7rem;
+    color: #121212;
+}
+.articles-3 p {
+    color: #555555;
+    margin-top: 0.5rem;
+}
+.articles-3 .article-three {
+    border: none;
+}
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0 2.5rem;
+}
+.row-2 h3 {
+    color: #121212;
+    font-size: 1.6rem;
+}
+.row-2 p {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+.articles-4 {
+    border-right: 0.1rem solid  rgb(216, 213, 213);
+    padding-right: 1.5rem;
+}
+.row-2 .last-article {
+    border: none;
+}
+
+
+.grid-2 {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: max-content auto;
+
+    grid-template-areas:
+        "column-1 container-1-col"
+        "column-1 container-2-col";
+}
+.column_1 {  
+    width: 83rem;
+    grid-row: span 2;
+    grid-area: column-1;
+    padding-right: 1.5rem;
+    border-right: 0.1rem solid #ddd;    
+}
+.section {
+    padding: 1.8rem 0;
+    border-top: 0.1rem solid #000;
+    display: flex;
+    justify-content: space-between;
+}
+.column-1 h3 {
+    font-size: 2rem;
+    color: #121212;
+}
+.column-1 h2 {
+    font-size: 1.6rem;
+    color: #121212;
+}
+.section h2 {
+    font-size: 1.6rem;
+}
+.section p {
+    margin-top: 0.5rem;
+    color: #555555;
+}
+.one_article {
+    width: 37.65rem;
+    padding-right: 2.5rem;
+    border-right: 0.1rem solid  rgb(216, 213, 213);
+}
+.two_articles {
+    width: 37.65rem;
+}
+.article-border {
+    margin: 0 0 1.4rem;
+    padding: 0 0 1.4rem;
+    border-bottom: 0.1rem solid  rgb(216, 213, 213);
+}
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8rem 0 0;
+    margin: 0 0 1.8rem;
+    border-top: 0.1rem solid #000 ;
+}
+.section-1-box-2 {
+    flex-basis: 51%;
+}
+.img-crowd {
+    width: 100%;
+    object-fit: contain;
+}
+.section-1 small {
+    font-size: 1.1rem;
+    color: #999999;
+}
+.section-1 h2 {
+    font-size: 2.8rem;
+    color: #121212;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1.8rem;
+    padding-bottom: 2rem;
+}
+.section-1 p {
+    color: #555555;
+}
+
+.container-1-col {
+    border-top: 0.5rem double #000;
+    padding-bottom: 2rem;
+    grid-area: container-1-col;
+}
+.text-article {
+    border-bottom: 0.1rem solid rgb(216, 213, 213);
+    padding-bottom: 1.7rem;
+    max-width: 33.9rem;
+}
+
+.section-3 {
+    margin-bottom: 1.8rem;
+    padding-top: 1.8rem;
+    border-top: 0.1rem solid #000;
+    display: flex;
+    justify-content: space-between;
+}
+table {
+    width: 29.615rem;
+    height: 9.22rem;
+    padding-right: 1.5rem;
+    border-right: 0.1rem solid  rgb(216, 213, 213);
+}
+thead th {
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+.number-red {
+    font-size: 2rem;
+    color: #cc0000;
+}
+.cases {
+    padding-right: 1rem;
+    border-right: 0.1rem solid rgb(216, 213, 213);
+}
+.cases h3 {
+    font-size: 1.4rem;
+    font-weight: 200;
+    margin-bottom: 0.5rem;
+}
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 0.5rem; 
+}
+.grid-4 a {
+    font-size: 1.4rem;
+    color: #000;
+}
+.maps-two {
+    display: flex;
+    padding-right: 2rem;
+}
+.maps-two h3 {
+    font-size: 1.4rem;
+}
+.maps-two img {
+    width: 10.251rem;
+    height: 6.851rem;
+}
+.links-inline {
+    display: flex;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid #000;
+}
+.links-inline h3 {
+    font-size: 1.5rem;
+    color: #333333;
+}
+.links-inline ul {
+    margin-left: 1.5rem;
+}
+.links-inline ul li {
+    display: inline-block;
+}
+.links-inline a {
+    font-size: 1.4rem;
+    color: #000;
+    margin-right: 1rem;
+}
+
+.section-4 {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.section-4 h2 {
+    font-size: 2rem;
+    color: #121212;
+    margin-bottom: 1.5rem;
+}
+.img-map {
+    flex-basis: 45%;
+}
+.section-4 img {
+    width: 100%;
+}
+.map-flight {
+    width: 29.55rem;
+    height: 19.7rem;
+}
+.section-5 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.8rem;
+    border-top: 0.1rem solid #000;
+    margin-bottom: 7rem;
+}
+.weekender {
+    flex-basis: 63%;
+}
+.weekender img {
+    width: 100%;
+    object-fit: contain;
+}
+.section-5 h2 {
+    font-size: 2rem;
+    color: #121212;
+    margin-bottom: 1rem;
+}
+article p {
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid rgb(216, 213, 213);
+}
+.section-5 h3 {
+    font-size: 1.6rem;
+    padding-top: 1.5rem;
+    color: #121212;
+}
+
+.container-1-col header h3 {
+    color: #121212;
+    font-size: 1.8rem;
+    font-weight: 100;
+    padding: 0.5rem 0;
+}
+.name-author {
+    color: #A19D9D;
+    padding-top: 1rem;
+}
+.container-1-col h2 {
+    color: #121212;
+    font-size: 1.6rem;
+    margin: 0.5rem 0;
+}
+.container-1-col p {
+    color: #555555;
+}
+.container-1-col div:nth-child(3) {
+    border: none;
+}
+.text-and-img {
+    display: flex;
+}
+.text-and-img div {
+    flex-basis: 50%;
+}
+.img-graduate img {
+    padding-left: 1.5rem;
+    width: 100%;
+    object-fit: contain;
+}
+
+.two-columns-box {
+    display: flex;
+}
+.little-box {
+    padding: 1.4rem 0;
+    max-width: 15.5rem;
+}
+.little-box::after {                            
+    content: "";
+    position: absolute;
+    margin-top: 1.5rem;
+    width: 16rem;
+    height: 0.1rem;
+    background-color: rgb(216, 213, 213);
+}
+.five-articles {
+    border-right: 0.1rem solid rgb(216, 213, 213);
+    margin-right: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.container-2-col {
+    border-top: 0.5rem double black;
+    grid-area: container-2-col;
+}
+.container-2-col header {
+    padding: 1rem 0 0.9rem;
+    margin-bottom: 0.8rem;
+    font-weight: 550;
+    color: #121212;
+}
+.container-2-col div:last-child {
+    border: none;
+}
+.article-spy {
+    position: relative;
+}
+.article-spy img {
+    width: 38.5rem;
+    height: 25.666rem;
+}
+.article-spy h2 {
+    color: #121212;
+    font-size: 2.8rem;
+    font-weight: 200;
+    margin: 1.5rem 0;
+}
+.article-spy h2::after {
+    content: "";
+    position: absolute;
+    left: 0.3rem;
+    top: 35rem;
+    width: 6.5rem;
+    height: 0.1rem;
+    background-color: rgb(216, 213, 213);
+}
+.article-spy p {
+    padding: 1.5rem 0;
+    border-bottom: 0.1rem solid  rgb(216, 213, 213);
+}
+.one-brand {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid rgb(216, 213, 213);
+}
+.one-brand h3 {
+    font-size: 1.6rem;
+    color: #121212;
+    margin-bottom: 0.5rem;
+}
+.one-brand div {
+    padding-top: 1.5rem;
+}
+.img-resize {
+    width: 17.775rem;
+    height: 17.775rem;
+}
+
+.news {
+    border-top: 0.5rem double #000;
+}
+.news header h3 {
+    font-size: 1.8rem;
+    color: #121212;
+    padding: 1.5rem 0;
+}
+.container-news {
+    display: flex;
+    padding-bottom: 4rem;
+}
+.men_fishing {
+    width: 46.1rem;
+    height: 30.764rem;
+}
+.three-news img {
+    width: 21.625rem;
+    height: 14.434rem;
+}
+.news_one h2 {
+    font-size: 2.4rem;
+    text-align: center;
+    color: #121212;
+    margin: 3rem 0 1.5rem;
+}
+.news_one p {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.news_one {
+    padding-right: 1.5rem;
+    border-right: 0.1rem solid rgb(216, 213, 213);
+}
+.text-and-img2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    border-bottom: 0.1rem solid rgb(216, 213, 213);
+    width: 46.2rem;
+}
+.img-medium {
+    flex-basis: 47%;
+}
+.img-medium img {
+    width: 100%;
+    object-fit: contain;
+}
+.three-news div:last-child {      
+    border: none;
+}
+.three-news {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-right: 0.1rem solid rgb(216, 213, 213);
+}
+.three-news h4 {
+    color: #121212;
+    margin-bottom: 0.5rem;
+    padding-right: 1rem;
+}
+.three-news p {
+    font-size: 1.5rem;
+}
+.five-news {
+    padding-left: 1.5rem;
+}
+.five-news div {
+    border-bottom: 0.1rem solid rgb(216, 213, 213);
+}
+.five-news div:last-child {
+    border: none;
+}
+.five-news h2 {
+    font-size: 1.6rem;
+    color: #121212;
+    padding: 1.5rem 0;
+}
+
+.at-home {
+    border-top: 0.5rem double #000;
+    padding: 1.5rem 0 3rem;
+}
+.at-home header h2 {
+    font-size: 1.8rem;
+    color: #121212;
+    margin-bottom: 1.8rem;
+}
+.container-home {
+    display: flex;
+    justify-content: space-between;
+}
+.container-home div {
+    padding: 0 1rem;
+    border-right: 0.1rem solid rgb(216, 213, 213);
+}
+.container-home div:last-child {
+    border: none;
+}
+.container-home h3 {
+    font-size: 1.6rem;
+    color: #121212;
+    margin-top: 1rem;
+}
+.container-home img {
+    width: 100%
+}
+
+.section-2 {
+    border-top: 0.1rem solid #000;
+}
+.maps-cases .first-box {
+    margin-top: 1.5rem;
+    padding-right: 1.5rem;
+}
+.pressure {
+    margin-bottom: 2rem;
+}
+.pressure h3 {
+    color: #121212;
+    margin-bottom: 0.5rem;
+}
+.vaccine-geopolitics {
+    padding-top: 2rem;
+    border-top: 0.1rem solid rgb(216, 213, 213);
+}
+.vaccine-geopolitics h2 {
+    font-size: 1.6rem;
+    color: #121212;
+    margin-bottom: 0.5rem;
+}
+.second-box {
+    border-left: 0.1rem solid rgb(216, 213, 213);
+    padding-left: 1.5rem;
+}
+.maps-cases {
+    display: flex;
+}
+.map-title {
+    margin: 1.5rem 0;
+}
+.map-title a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #000;
+    font-weight: 600;
+}
+.grid-3 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.grid-3 img {
+    width: 15.553rem;
+    height: 12.619rem;
+}
+.grid-3 a {
+    position: absolute;
+    color: #000;
+}
+.description-grid {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+.description-grid a {
+    color: #333333;
+}
+.three-btn {
+    text-align: center;
+}
+.btn-1 {
+    width: 8.129rem;
+    height: 2.96rem;
+    margin-right: -5px;
+    cursor: pointer;
+}
+.btn-2 {
+    width: 10.251rem;
+    height: 2.96rem;
+    margin-right: -5px;
+    cursor: pointer;
+}
+.btn-3 {
+    width: 11.289rem;
+    height: 2.96rem;
+    cursor: pointer;
+}
+.demand {
+    margin-top: 1.5rem;
+}
+.demand h2 {
+    font-size: 1.7rem;
+    color: #121212;
+    margin-bottom: 0.5rem;
+}
+.red-text {
+    margin: 1rem 0 2rem;
+}
+.red-text span {
+    color: #d0021b;
+    font-size: 1.4rem;
+    font-weight: 550;
+}
+
+.features {
+    padding: 1.1rem 0 3rem;
+    border-top: 0.5rem double #000;
+}
+.features header h2 {
+    font-size: 1.8rem;
+    color: #121212;
+    padding-bottom: 1.5rem;
+}
+.container-features {
+    display: flex;
+}
+.container-features h3 {
+    font-size: 2.8rem;
+    color: #121212;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    margin: 3rem 0;
+    text-align: center;
+}
+.container-features p {
+    color: #555555;
+    text-align: center;
+}
+.img-cow {
+    width: 1370px;        
+}
+.img-cow img {
+    width: 100%;
+}
+.box-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+    border-left: 0.1rem solid rgb(216, 213, 213);
+    position: relative;
+}
+.box-wrapper img {
+    width: 21.58rem;
+    height: 14.404rem;
+}
+.box-wrapper h2 {
+    font-size: 1.6rem;
+    color: #121212;
+    margin: 0.5rem 0;
+}
+.box-wrapper p {
+    font-size: 1.5rem;
+    text-align: left;
+}
+.wrap-1 {
+    border-right: 0.1rem solid rgb(216, 213, 213);
+    padding-right: 1rem;
+    margin-bottom: 3.5rem;
+}
+.wrap-1::after {
+    content: "";
+    background-color:rgb(216, 213, 213);
+    position: absolute;
+    top: 32rem;
+    width: 45rem;
+    height: 0.1rem;
+}
+.wrap-3 {
+    border-right: 0.1rem solid rgb(216, 213, 213);
+    padding-right: 1rem;
+}
+
+.science {
+    border-top: 0.5rem double #000;
+}
+.science header h2 {
+    font-size: 1.8rem;
+    color: #121212;
+    padding: 1.5rem 0;
+}
+.container-science {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+}
+.container-science p {
+    padding: 0.5rem 0;
+}
+.line-separation {
+    border-right: 0.1rem solid rgb(216, 213, 213);
+    padding: 0 1.5rem;
+}
+.science-2-boxes {
+    padding-left: 1rem;
+}
+.science h3 {
+    color: #121212;
+    font-size: 1.6rem;
+}
+.plane-jellyfish {
+    width: 33.8rem;
+    height: 22.533rem;
+    margin-bottom: 2rem;
+}
+.science-box-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    border-bottom: 0.1rem solid rgb(216, 213, 213);
+}
+.science-box-3 img {
+    width: 21.625rem;
+    height: 14.434rem;
+    margin-left: 0.5rem;
+}
+
+.popular {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+.most-popular {
+    border-top: 0.5rem double #000;
+    margin-right: 1.5rem;
+}
+.most-popular header h2 {
+    font-size: 1.8rem;
+    color: #121212;
+    margin: 1.5rem 0;
+}
+.container-popular {
+    display: flex;
+    justify-content: space-between;
+}
+.container-popular h3 {
+    font-size: 1.6rem;
+    color: #121212;
+}
+.container-popular p {
+    color: #555555;
+    font-size: 1.5rem;
+}
+.container-popular div:first-child {
+    padding-left: 0;
+}
+.container-popular div:last-child {
+    border-right: none;
+    padding-right: none;
+}
+.box-popular {
+    padding: 0 1.5rem;
+    border-right: 0.1rem solid rgb(216, 213, 213);
+}
+.box-popular h3 {
+    margin: 0.5rem 0;
+}
+.box-popular img {
+    width: 21.53rem;
+    height: 14.371rem;
+}
+.play {
+    border-top: 0.5rem double #000;
+}
+.play header h2 {
+    font-size: 1.8rem;
+    color: #121212;
+    margin: 1.4rem 0;
+}
+.play h3 {
+    font-size: 1.6rem;
+    color: #121212;
+    margin-bottom: 0.5rem;
+}
+.play p {
+    color: #555555;
+}
+.spelling-bee {
+    display: flex;
+    padding-bottom: 1.5rem;
+    border-bottom: 0.1rem solid rgb(216, 213, 213);
+}
+.one-bee {
+    width: 4.4rem;
+    height: 4.4rem;
+}
+.puzzle {
+    padding-top: 1.5rem;
+}
+
+.news-second {
+    border-top: 0.5rem double #000;
+}
+.news-second h3 {
+    font-size: 1.4rem;
+    color: #121212;
+    margin-bottom: 1.2rem;
+    padding-top: 3.5rem;
+}
+.news-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.news-wrapper div {
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+}
+.box-news {
+    width: 19.8rem;
+}
+.box-news img {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+.box-news h4 {
+    font-size: 1.4rem;
+    color: #121212;
+    margin-bottom: 0.3rem;
+}
+.box-news h2 {
+    font-size: 1.5rem;
+    color: #121212;
+    font-weight: 200;
+    margin-bottom: 0.7rem;
+}
+.empty-box {
+    width: 21.5rem;
+    height: 35rem;
+    background-color: #fff;
+}
+
+.opinion-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.news-second .padding-off h3 {
+    padding: 0;
+}
+
+.arts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.arts-container div {
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+}
+
+.living-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.living-container div {
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+}
+
+footer {
+    width: 120.5rem;
+    margin: 0 auto;
+    border-top: 0.5rem double rgb(192, 187, 187);
+    padding-top: 0.5rem;
+}
+footer svg {
+    display: block;
+    height: 4.4rem;
+    width: 18.4rem;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0 3rem;
+}
+.box-footer h3 {
+    font-size: 1.4rem;
+    color: #333333;
+}
+.box-footer ul {
+    margin-top: 1rem;
+    list-style-type: none;
+}
+.box-footer ul li {
+    margin-bottom: 0.4rem;
+}
+.box-footer ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.subscribe-box {
+    border-left: 0.1rem solid  rgb(216, 213, 213);
+    padding-left: 2rem;
+}
+.subscribe-box h3 {
+    font-size: 1.4rem;
+    color: #333333;
+}
+.subscribe-box ul {
+    list-style: none;
+}
+.subscribe-box a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.bold-characters svg {
+    display: inline-block;
+    height: 1.3rem;
+    width: 1.3rem;
+    vertical-align: middle;
+    margin-right: 0.7rem;
+}
+.subscribe-box .list-small {
+    padding: 1.5rem 0;
+}
+.special-border::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(216, 213, 213);  
+    height: 0.1rem;
+    width: 17rem;
+}
+.list-small li {
+    margin-bottom: 0.7rem;
+}
+.list-small li a {
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 100;
+}
+footer nav {
+    margin: 0 6rem 3rem 6rem;
+}
+footer nav ul {
+    list-style-type: none;
+}
+footer nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+footer nav ul li a {
+    font-size: 1.1rem;
+    color: #666666;
+    text-decoration: none;
+}
+.media-footer {
+    display: none;
+}
+
+
+@media (max-width: 1024px) {
+    header, main, footer {
+        max-width: 95rem;
+        margin: 0 auto;
+        margin-left: 2rem;
+    }
+    .header-top {
+        display: none;
+    }
+    .header-middle .today {
+        display: none;
+    }
+    .header-middle .temperature {
+        display: none;
+    }
+    .logo-title img {
+        width: 22.5rem;
+    }
+    .logo-title {
+        margin-left: 26rem;
+    }
+    .title-header .fa-bars, .title-header .fa-user {
+        display: inline;
+    }
+    .title-header .fa-bars {
+        margin-left: 2rem;
+    }
+    .title-header .fa-user {
+        position: absolute;
+        right: 2rem
+    }
+    .title-header {
+        display: flex;                   
+        justify-content: space-between;
+    }
+    .header-bottom ul {
+        display: none;
+    }
+    .header-bottom div {
+        display: inline-block;
+    }
+    .header-bottom div span {
+        font-size: 1.2rem;
+        color: #121212;
+        text-align: center;          
+        margin-left: 39rem;
+    }
+    .links-float {
+        position: absolute;
+        right: 2rem;
+    }
+    .links-float a {
+        font-size: 1rem;
+        color: #326891;
+        padding-right: 0.8rem;
+    }
+    .link-border {
+        padding-right: 0.5rem;
+        border-right: 0.1rem solid #ddd;
+    }
+
+    .row-2 {
+        max-width: 95.5rem;
+    }
+    .grid-1 {
+        font-size: 1.3rem;
+    }
+    .row-1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .articles-3 {
+        display: flex;
+    }
+    .articles-3 div {
+        margin-right: 3rem;
+        border: none;
+    }
+    
+    .grid-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+
+        grid-template-areas:
+            "column-1"
+            "column-1"
+            "container-1-col"
+            "container-2-col";
+    }
+    .article-spy {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .article-spy p {
+        border: none;
+    }
+    .article-spy img {
+        width: 60rem;
+        height: 40.6rem;
+    }
+    .article-spy h2::after {
+        display: none;
+    }
+    .one-brand {
+        margin: 0 2rem;
+    }
+    .text-article {
+        max-width: 93rem;
+    }
+    .two-columns-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .little-box {
+        max-width: 29rem;              
+        padding-right: 1.5rem;
+    }
+    .little-box::after {
+        display: none;
+    }
+    .five-articles {                   
+        border: none;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .four-articles {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .container-news {
+        display: block;
+    }
+    .new_one h2, p {
+        text-align: left;             
+    }
+    .text-and-img2 {
+        width: 100rem;
+    }
+
+    .features {
+        display: block;         
+    }
+    .wrap-1::after {
+        display: none;
+    }
+
+    .container-science {
+        flex-wrap: wrap;
+    }
+    .plane-jellyfish {
+        width: 45rem;
+        height: 30rem;
+    }
+    .line-separation {
+        display: flex;
+        justify-content: space-between;
+        border: none;
+    }
+    .line-separation img {
+        padding-right: 2rem;
+    }
+    .science-box-3 {
+        width: 90rem
+    }
+
+    .popular {
+        display: block;
+    }
+    .media-display {
+        display: flex;
+        justify-content: space-between;
+    }
+    .media-display div {
+        flex-basis: 50%;
+    }
+    .spelling-bee {
+        border: none;
+    }
+    .puzzle {
+        padding-top: 0;
+        padding-left: 1.5rem;
+        border-left: 0.1rem solid #ddd;
+    }
+
+    .box-news {
+        width: 28.8rem;
+    }
+    .box-news img {
+        width: 100%;
+    }
+    .opinion-container {
+        flex-wrap: wrap;
+    }
+    
+    footer svg {
+        padding-bottom: 2rem;
+    }
+    .footer-container {
+        display: none;
+    }
+    .media-footer {
+        display: block;
+    }
+    .media-footer a {
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: #333333;
+    }
+    .media-footer div {
+        margin-bottom: 3rem;
+        padding-top: 1rem;
+        border-top: 0.1rem solid #ddd;
+    }
+}
